@@ -1,0 +1,24 @@
+.lottie{
+
+    text-align: center;
+
+}
+.all{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: grid;
+}
+.lottie h1{
+    font-size: 50px;
+    width: 100%;
+    display: grid;
+}
+h1 span{
+    color: tomato;
+}
+hr{
+    background-color: grey;
+}

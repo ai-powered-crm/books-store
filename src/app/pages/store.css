@@ -1,0 +1,62 @@
+.all-store {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    border: dashed 1px;
+    display: flex;
+    padding: 10px;
+    width: 80%; 
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+  }
+  
+  .books {
+    text-align: center;
+    font-size: 2em; 
+    margin-bottom: 20px; 
+  }
+  
+  select,
+  option {
+    padding: 10px; 
+  }
+  
+  form table th td input {
+    padding: 10px; 
+    width: 100%; 
+    max-width: 400px; 
+  }
+  
+  .products {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; 
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+  }
+  
+  .box {
+    margin: 10px;
+    width: 200px; 
+  }
+  
+  .box img {
+    width: 100%; /* Made the image responsive within its container */
+    height: auto; /* Added for responsiveness */
+    border-radius: 10px; /* Added border radius for rounded corners */
+  }
+  

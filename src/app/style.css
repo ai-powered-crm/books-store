@@ -1,0 +1,42 @@
+.all-nav{
+    display: flex;
+    background-color: goldenrod;
+    justify-content: space-between;
+}
+.point1{
+    color: tomato;
+    
+}h1 .nav-link{
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 20px;
+}
+ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 20px;
+}
+ul a{
+    margin: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+ul a:hover{
+    animation-name: anim1;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+@keyframes anim1 {
+    to{
+        color: tomato;
+    }
+    
+}
